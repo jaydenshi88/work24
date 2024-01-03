@@ -1,0 +1,104 @@
+header {
+  background-color: #d2e7d6;
+}
+
+body {
+  font-size: 2.4vw;
+  font-family: Apple Chancery, cursive;
+
+  background-color: #d2e7d6;
+}
+
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+header>img {
+  width: 10%;
+  position: relative;
+  top: 20px;
+}
+
+header>a {
+  font-size: 3vw;
+  font-family: Apple Chancery, cursive;
+  color: #675dee;
+}
+
+
+nav ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 2.8vw;
+  padding: 1vw;
+  font-weight: bold;
+}
+
+.nav_li li a {
+  color: #f29292;
+}
+
+main {
+  background-color: #d3b3b3;
+  font-size: 2.7vw;
+}
+
+h1 {
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+  font-size: 6vw;
+  color: #f29292;
+  background-color: #97e99599;
+  font-weight: bolder;
+}
+
+p {
+  line-height: 2;
+}
+
+footer {
+  background-color: #d2e6b5;
+  font-size: 2.5vw;
+}
+
+a {
+  color: #000;
+  font-style: italic;
+}
+
+.grid_class {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
+  justify-content: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.grid_class>img {
+  width: 100%;
+  border: 3px solid #000;
+  padding: 0.5em;
+  background-color: #87cfee;
+}
+
+.flex_class {
+  display: flex-wrap;
+  row-gap: 2em;
+  column-gap: 2em;
+  padding: 1em;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex_class>img {
+  object-fit: cover;
+  max-width: 100%;
+}
